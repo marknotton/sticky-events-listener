@@ -17,16 +17,6 @@ standalone ES6 Class. With only a couple minor tweaks.
 ES6 Support
 Relies on `position: sticky` and `IntersectionObserver` support.
 
-### Options
-| Setting | Default | Type | Description |
-| -- | -- | -- | -- |
-| duration  | 3000  | object | Time (in miliseconds) between each iteration callback |
-| instant   | true  | object | Trigger iniitial callback instantly with no delay |
-| delay     | 0     | string | End function delay. |
-| loop      | 3     | object | Iterations loop infinetly or by a set amount |
-
-
-
 ### Usage
 
 When you declare the initial Sticky Events class, there are two optional parameters you can pass in.
